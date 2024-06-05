@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portifolio Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/5412624264.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+     <main id="main"> 
+    
+    
+            <div class="header">
+          
+
+                 <nav class="nav-bar">
+                   <img src="./image/Screenshot_1.png" alt="" class="image1">
+                   <ul id="sidemenu"> 
+                       <li class="navlist"><a href="#" class="navitems">Home</a></li>
+                       <li class="navlist"><a href="#about" class="navitems">About</a></li>
+                       <li class="navlist"><a href="#services" class="navitems">Services</a></li>
+                       <li class="navlist"><a href="#portfolio" class="navitems">Portifolio</a></li>
+                       <li class="navlist"><a href="#contact" class="navitems">Contact</a></li>
+                       <i class="fas fa-times" onclick="closemenu()"></i>
+                     </ul>
+                     <i class="fas fa-bars" onclick="openmenu()"></i>
+                 </nav>
+    
+            <div class="header-text">
+                <div class="text1">
+                       <p>
+                           Full-Stack Web Developer
+                        </p>
+
+                        <h1>
+                            I Am Jonathan <span>Prosper</span> Chinedu From Nigeria
+                        </h1>
+                </div>
+       
+                <div>
+                         <img src="./image/WhatsApp Image 2024-05-31 at 11.33.41_dfb6f957.jpg" alt="" class="image">
+                </div>
+            </div>
+<!------------------------About-------------------------->
+    <div id="about"> 
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./image/WhatsApp Image 2024-06-01 at 10.18.26_be9569e0.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello there! I'm <span>Jonathan Prosper Chinedu,</span> a passionate Full-Stack Web Developer with a knack for 
+                        turning ideas into digital realities. With a blend of technical expertise and creative 
+                        flair, I thrive on crafting immersive online experiences that leave a lasting impact.
+                      <br>
+                      <br>
+                        My Journey:
+                        <br> into the world of web development began with a curiosity-driven exploration of
+                         coding languages and design principles. Over the years, I've honed my skills in frontend 
+                         and backend technologies, mastering languages like HTML, CSS, JavaScript, and beyond. Each 
+                         project. <br>I undertake is not just a task but a voyage of discovery, where I
+                         push the boundaries of innovation and creativity.</p>
+
+                         <div class="tab-titles">
+                            <p class="tab-links  active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Full-Stack</span><br>Developing Responsiv and Adaptive Website.</li>
+                                <li><span>Graphics-Designer</span><br>Create and Designing logos, branding<br> materials, and visual identities
+                                     for companies, organizations, and products.</li>
+                                <li><span>Digital-Marketer</span><br> Creating comprehensive digital marketing<br> 
+                                    strategies aligned with business goals, target audience, and budget.</li>
+                            </ul>
+                         </div>
+
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Non:</span><br>No Working Experience For Now.</li>
+                              
+                            </ul>
+                         </div>
+
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Vnicom-Tech-Hub</span><br>Currently learning Full-Stack Web Development in Vnicom-Tech-Hub.</li>
+                            </ul>
+                         </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-------------------------services---------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Website-Design, Frontend-Development, Backend-Development, Full-stack Development, Responsive-Web Designs. </p>
+                    <a href="#">Learn more</a>
+
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Graphics-Design</h2>
+                    <p>Logo-Designs, Brand-Identity Design, Print-Design, Web-Design.</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-hashtag"></i>
+                    <h2>Digital-Marketing</h2>
+                    <p>Digital-Strategy Development, Search-Engine Optimization (SEO), Search-Engine Marketing (SEM), 
+                        Social-Media Marketing (SMM)</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------portfolio-------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./image/Untitled-3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Web Development App</h3>
+                        <p>The app connects you to talented<br> people around the world.
+                            Download<br> it from play store.
+                        </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./image/web1.jpg" alt="">
+
+                    <div class="layer">
+                        <h3>Graphics Design App</h3>
+                        <p>The app connects you to talented<br> people around the world.
+                            Download <br>it from play store.
+                        </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./image/web2.jpg" alt="">
+
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to talented <br>people around the world.
+                            Download<br> it from play store.
+                        </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="btn">See more</a>
+
+
+    <!----------------------Contact----------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> Contact@example.com</p>
+                    <p> <i class="fa-solid fa-phone-volume"></i> 08107009342</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" class="text" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link")
+
+    document.getElementById(tabname).classList.add("active-tab")
+
+}
+
+
+
+var sidemeu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemeu.style.right = "0";
+}
+
+
+function closemenu(){
+    sidemeu.style.right = "-200px";
+}
+
+</script>
+
+
+
+
+
+</body>
+</html>
