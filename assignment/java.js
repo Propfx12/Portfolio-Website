@@ -10,17 +10,23 @@ const i = [1, 2, 3, 4,];
 document.getElementById("num").innerHTML = i;*/
 
 
-const nums = [1, 2, 3, 4,];
+// loop
 
-let text = "";
-for (let i = 0; i < nums.length; i++) {
-  text += nums[i] + "<br>";
+const nums = [1, 2, 3, 4, 5,];
+let prop = nums.length;
+
+let text = "<ul>";
+for (let i = 0; i < prop; i++) {
+  text += nums[i] + "<br>" + "<br>";
 }
+
+
+text += "</ul>";
 
 document.getElementById("demo").innerHTML = text;
 
-text += nums[0] + "<br>";
-text += nums[1] + "<br>";
-text += nums[2] + "<br>";
-text += nums[3] + "<br>";
-text += nums[4] + "<br>";
+// Array
+
+const login = ["username", "password", "contact", "sign in", "sign up"];
+
+document.getElementById("log").innerHTML = login[4];

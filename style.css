@@ -436,6 +436,7 @@ nav .fas{
         height: 1000vh;
         padding-top: 50px;
         z-index: 2;
+        transition: 0.75s ease-out;
     }
 
     .navlist{
@@ -458,8 +459,10 @@ nav .fas{
         flex-basis: 100%;
      }
      .about-col-1{
-        margin-bottom: 30px;
+        display: none;
      }
+
+     
     
      .about-col-2{
         font-size: 14px;
@@ -506,6 +509,10 @@ nav .fas{
     .services-list div i{
         font-size: 20px;
         margin-bottom: 30px;
+    }
+
+    .navitems::after{
+        background: #000000;
     }
 
 }
